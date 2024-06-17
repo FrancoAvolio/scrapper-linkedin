@@ -46,6 +46,7 @@ Este proyecto es un bot automatizado que utiliza Selenium para enviar solicitude
     ```plaintext
     LINKEDIN_EMAIL=tu_correo_de_linkedin@example.com
     LINKEDIN_PASSWORD=tu_contraseña_de_linkedin
+    LINKEDIN_URL=URL destino
     ```
 
 5. **Descarga ChromeDriver:**
