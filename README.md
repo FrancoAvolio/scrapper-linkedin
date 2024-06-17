@@ -35,7 +35,7 @@ Este proyecto es un bot automatizado que utiliza Selenium para enviar solicitude
 3. **Instala las dependencias:**
 
     ```bash
-    pip install Selenium
+    pip install selenium
     dotenv
     ```
 
