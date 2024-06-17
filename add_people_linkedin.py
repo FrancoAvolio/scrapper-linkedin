@@ -32,9 +32,9 @@ password.send_keys(linkedin_password)
 time.sleep(3)
 submit = driver.find_element(By.XPATH, "//button[@type='submit']").click()
 time.sleep(3)
-
 n_pages = 10
 base_url = linkedin_url
+time.sleep(3)
 for n in range(n_pages + 1):
     if n == 0:
         url = base_url
