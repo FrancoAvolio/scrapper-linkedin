@@ -8,6 +8,7 @@ import os
 load_dotenv()
 linkedin_password = os.getenv("LINKEDIN_PASSWORD")
 linkedin_user = os.getenv("LINKEDIN_EMAIL")
+linkedin_url = os.getenv("LINKEDIN_URL")
 chrome_driver_path = r'C:/Users/franc/Downloads/chromedriver-win64/chromedriver.exe'
 
 # Configura las opciones del navegador Chrome
@@ -33,7 +34,7 @@ submit = driver.find_element(By.XPATH, "//button[@type='submit']").click()
 time.sleep(3)
 
 n_pages = 10
-base_url = "https://www.linkedin.com/search/results/people/?keywords=it%20recruiter&network=%5B%22O%22%5D&origin=FACETED_SEARCH&sid=B*V"
+base_url = linkedin_url
 for n in range(n_pages + 1):
     if n == 0:
         url = base_url
