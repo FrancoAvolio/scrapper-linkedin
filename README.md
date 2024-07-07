@@ -37,6 +37,7 @@ Este proyecto es un bot automatizado que utiliza Selenium para enviar solicitude
     ```bash
     pip install selenium
     dotenv
+    chromedriver-py
     ```
 
 4. **Configura el archivo `.env`:**
